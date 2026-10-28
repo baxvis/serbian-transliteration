@@ -1,7 +1,7 @@
 # Serbian Transliteration - Biblioteka za transkripciju srpskog pisma
 
-[![npm version](https://img.shields.io/npm/v/@exvorn/serbian-transliteration.svg)](https://www.npmjs.com/package/@exvorn/serbian-transliteration)
-[![GitHub](https://img.shields.io/badge/github-exvorn/serbian--transliteration-blue?logo=github)](https://github.com/exvorn/serbian-transliteration)
+[![npm version](https://img.shields.io/npm/v/@baxvis/serbian-transliteration.svg)](https://www.npmjs.com/package/@baxvis/serbian-transliteration)
+[![GitHub](https://img.shields.io/badge/github-baxvis/serbian--transliteration-blue?logo=github)](https://github.com/baxvis/serbian-transliteration)
 
 `serbian-transliteration` je lagana i brza JavaScript/TypeScript biblioteka za transkripciju srpskog teksta između ćirilice i latinice. Omogućava jednostavno konvertovanje rečenica ili reči, pogodna je za Node.js i browser okruženja, i ne zahteva dodatne biblioteke.
 
@@ -32,7 +32,7 @@
 
 Instalirajte paket putem npm-a:
 ```bash
-npm install @exvorn/serbian-transliteration
+npm install @baxvis/serbian-transliteration
 ```
 
 ---
@@ -40,8 +40,8 @@ npm install @exvorn/serbian-transliteration
 ## Primer korišćenja
 
 ```js
-import SerbianTransliteration from '@exvorn/serbian-transliteration'; // ESM syntax
-// const SerbianTransliteration = require('@exvorn/serbian-transliteration'); // CommonJS syntax
+import SerbianTransliteration from '@baxvis/serbian-transliteration'; // ESM syntax
+// const SerbianTransliteration = require('@baxvis/serbian-transliteration'); // CommonJS syntax
 
 let result;
 
@@ -179,7 +179,7 @@ SerbianTransliteration.toCyrillic(
 
 ## Autor
 
-[@exvorn (Jovan Bogovac)](https://github.com/exvorn)
+[@baxvis (Jovan Bogovac)](https://github.com/baxvis)
 
 ---
 
